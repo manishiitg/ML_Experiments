@@ -6,3 +6,6 @@ This repo is mainly for myself to recollect and also share my journey and experi
 
 =====
 
+### Keras ###
+I found keras easy to start with when working with M/L and understand basics of neural networks. 
+- [Keras 101](keras/Keras_First_Neural_Net_101.ipynb)
