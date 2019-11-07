@@ -8,6 +8,7 @@ This repo is mainly for myself to recollect and also share my journey and experi
 ### NLP Basics ###
 Understanding basics of NLP
 - [NLP Basics](nlp/101/nlp_getting_started.ipynb) 
+- [Bag of Words](nlp/101/count_vectorize_bag_of_words.ipynb)
 - [TF-IDF](nlp/101/tf_idf_experments.ipynb)
 
 ### Keras ###
