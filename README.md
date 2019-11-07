@@ -8,6 +8,7 @@ This repo is mainly for myself to recollect and also share my journey and experi
 ### NLP Basics ###
 Understanding basics of NLP
 - [NLP Basics](nlp/101/nlp_getting_started.ipynb) 
+- [TF-IDF](nlp/101/tf_idf_experments.ipynb)
 
 ### Keras ###
 I found keras easy to start with when working with M/L and understand basics of neural networks. 
