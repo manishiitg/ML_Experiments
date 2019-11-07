@@ -5,6 +5,9 @@ This repository will contain code's mainly related to my personal experiances wh
 This repo is mainly for myself to recollect and also share my journey and experiances with Deep Learning.
 
 =====
+### NLP Basics ###
+Understanding basics of NLP
+- [NLP Basics](nlp/101/nlp_getting_started.ipynb) 
 
 ### Keras ###
 I found keras easy to start with when working with M/L and understand basics of neural networks. 
