@@ -10,6 +10,7 @@ Understanding basics of NLP
 - [NLP Basics](nlp/101/nlp_getting_started.ipynb) 
 - [Bag of Words](nlp/101/count_vectorize_bag_of_words.ipynb)
 - [TF-IDF](nlp/101/tf_idf_experments.ipynb)
+- [Word2Vec](nlp/101/word2vec_experiments.ipynb)
 
 ### Keras ###
 I found keras easy to start with when working with M/L and understand basics of neural networks. 
