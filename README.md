@@ -16,4 +16,4 @@ Understanding basics of NLP
 ### Keras ###
 I found keras easy to start with when working with M/L and understand basics of neural networks. 
 - [Keras 101](keras/Keras_First_Neural_Net_101.ipynb)
-- [Keras Simple CNN and VG16 Transfer Learning](keras/keras_very_simple_cnn_and_vgg16_transfer_learning.ipynb)
+- [Keras Simple CNN and VGG16 Transfer Learning](keras/keras_very_simple_cnn_and_vgg16_transfer_learning.ipynb)
