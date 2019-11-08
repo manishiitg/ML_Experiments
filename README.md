@@ -10,7 +10,7 @@ This repo is mainly for myself to recollect and also share my journey and experi
 I found keras easy to start with when working with M/L and understand basics of neural networks. 
 - [Keras 101](keras/Keras_First_Neural_Net_101.ipynb)
 - [Keras Simple CNN and VGG16 Transfer Learning](keras/keras_very_simple_cnn_and_vgg16_transfer_learning.ipynb)
-- [Keras NLP Text Classification With Simple FF Network Word2Vec + TF-IDF] (keras/simple_FF_deep_learning_classifier_with_word2vec_embedding_+_TF_IDF.ipynb) 
+- [Keras NLP Text Classification With Simple FF Network Word2Vec + TF-IDF(keras/simple_FF_deep_learning_classifier_with_word2vec_embedding_+_TF_IDF.ipynb) 
 
 ### ML ###
 Various expriments with Data Science and ML
