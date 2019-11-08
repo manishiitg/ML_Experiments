@@ -6,6 +6,13 @@ This repo is mainly for myself to recollect and also share my journey and experi
 
 =====
 
+### NLP / Deep Learning ###
+Learning NLP through deep learning
+
+- ##### Keras #####
+  - [Golve Embedding with Keras CNN/LSTM](nlp/golve_vectors_with_keras_deep_nets.ipynb) Got good results using golve vectors with LSTM but it takes time to train the network
+
+
 ### Keras ###
 I found keras easy to start with when working with M/L and understand basics of neural networks. 
 - [Keras 101](keras/Keras_First_Neural_Net_101.ipynb)
