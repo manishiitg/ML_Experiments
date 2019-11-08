@@ -1,4 +1,4 @@
-# ML/AI Experments
+# ML/AI Experiments
 
 This repository will contain code's mainly related to my personal experiances while learning ML and Deep Learning. All will contain various examples and learning. 
 
