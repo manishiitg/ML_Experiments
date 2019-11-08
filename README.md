@@ -6,8 +6,9 @@ This repo is mainly for myself to recollect and also share my journey and experi
 
 =====
 ### ML ###
-
+Various expriments with Data Science and ML
 - [PCA/t-Sine Data Visualization](ml/PCA,_t_sine_data_visualization.ipynb)
+- 
 
 ### NLP Basics ###
 Understanding basics of NLP
