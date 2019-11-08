@@ -5,6 +5,10 @@ This repository will contain code's mainly related to my personal experiances wh
 This repo is mainly for myself to recollect and also share my journey and experiances with Deep Learning.
 
 =====
+### ML ###
+
+- [PCA/t-Sine Data Visualization](ml/PCA,_t_sine_data_visualization.ipynb)
+
 ### NLP Basics ###
 Understanding basics of NLP
 - [NLP Basics](nlp/101/nlp_getting_started.ipynb) 
