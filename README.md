@@ -15,7 +15,7 @@ I found keras easy to start with when working with M/L and understand basics of 
 ### ML ###
 Various expriments with Data Science and ML
 - [PCA/t-Sine Data Visualization](ml/PCA,_t_sine_data_visualization.ipynb)
-- 
+- [Logistic Regression for Text Classification](ml/logistic_regression_with_word2vec.ipynb) Using sklearn for LR and word2vec for embeddings together with Mean/TF-IDF
 
 ### NLP Basics ###
 Understanding basics of NLP
