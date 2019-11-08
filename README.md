@@ -11,6 +11,7 @@ I found keras easy to start with when working with M/L and understand basics of 
 - [Keras 101](keras/Keras_First_Neural_Net_101.ipynb)
 - [Keras Simple CNN and VGG16 Transfer Learning](keras/keras_very_simple_cnn_and_vgg16_transfer_learning.ipynb) Taken images from flipkart to classify images between tshirt/jeans
 - [Keras NLP Text Classification With Simple FF Network Word2Vec + TF-IDF](keras/simple_FF_deep_learning_classifier_with_word2vec_embedding_+_TF_IDF.ipynb) Using a very simple NN to expriment text classification and using word2vec embeddings
+- [LSTM/CNN Text Classification using word2vec](keras/deep_learning_word2vec_model_with_CNN,_LSTM.ipynb) Trying out LSTM/CNN modules to classify text 
 
 ### ML ###
 Various expriments with Data Science and ML
