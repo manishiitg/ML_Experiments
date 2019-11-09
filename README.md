@@ -19,7 +19,7 @@ I was looking at different ways to be able cluster data using unsupervised learn
 to reduce dimensionality of data (which could be used for clustering) and also came onto VAE which can be used to generate content.
 In conclusion i found this not very effective but its good to get an understand of things and see some interesting applications.
 We can use GAN's to achieve SOTA results with images and models like GPT2 for text generation. 
-But auto-encoders are good concepts to understand and learn nonetheless. 
+But auto-encoders are good concepts to understand and learn nonetheless. Would like to come back to this topic later on after explanding my knowledge futher with Deep Learning and Clustring. 
 
 - []
 
