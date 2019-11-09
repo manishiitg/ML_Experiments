@@ -18,6 +18,7 @@ Learning NLP through deep learning
 - [Pytorch Basics Part2](pytorch/101/pytorch_getting_started_part2.ipynb) Doing simple linear regression 
 - [Pytroch Simple NN on MNIST Dataset](pytorch/101/pytorch_basics_LR_on_MNIST_Dataset.ipynb)
 - [Pytorch Simple CNN on MNIST Dataset](pytorch/101/Pytorch_Simple_CNN_on_MNIST.ipynb)
+- [Pytroch Simple CNN on CIFAR10 Dataset](pytorch/101/pytorch_cnn_experiment_basics.ipynb)
 
 ### Keras ###
 I found keras easy to start with when working with M/L and understand basics of neural networks. 
