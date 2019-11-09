@@ -13,6 +13,16 @@ Learning NLP through deep learning
   - [Golve Embedding with Keras CNN/LSTM](nlp/golve_vectors_with_keras_deep_nets.ipynb) Got good results using GloVe vectors with LSTM but it takes time to train the network. *Should come back to above later and test this with more relevent data*
   - [Spacy Embedding with Keras](nlp/spacy_vectors_with_keras_deep_nets.ipynb) Just trying out spacy embedding instead of GloVe. Altough spacy uses GloVe internally, it's just easier to use just a single library.  
 
+### AutoEncoders ###
+
+I was looking at different ways to be able cluster data using unsupervised learning. During this i encountered auto encoders
+to reduce dimensionality of data (which could be used for clustering) and also came onto VAE which can be used to generate content.
+In conclusion i found this not very effective but its good to get an understand of things and see some interesting applications.
+We can use GAN's to achieve SOTA results with images and models like GPT2 for text generation. 
+But auto-encoders are good concepts to understand and learn nonetheless. 
+
+- []
+
 ### Pytorch ###
 - [Pytorch 101](pytorch/101/pytorch_getting_start_LR_101.ipynb) Simple linear regression 
 - [Pytorch Basics Part2](pytorch/101/pytorch_getting_started_part2.ipynb) Doing simple linear regression 
