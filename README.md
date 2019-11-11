@@ -22,10 +22,14 @@ In conclusion i found this not very effective but its good to get an understand 
 We can use GAN's to achieve SOTA results with images and models like GPT2 for text generation. 
 But auto-encoders are good concepts to understand and learn nonetheless. Would like to come back to this topic later on after explanding my knowledge futher with Deep Learning and Clustring. 
 
-- [Keras AutoEncoder with DEC Clustering](autoencoder/auto_encoder_experiment_with_keras_with_clustering_DEC.ipynb) almost 25% improvement with clustering with auto encoders. experiment further with DEC - [ ] get back on this need to understand DEC better 
-- [Simple Autoencoder with pytorch](autoencoder/pytorch_basic_experiment_autoencoder_myself.ipynb) Nothing much done on this, just for learning pytorch 
-- [VAE Autoencoder CNN Pytorch](autoencoder/VAE_ecommerce_CNN_pytorch.ipynb)
-- [VAE CNN Autoencoder](autoencoder/VAE_ecommerce_pytorch_64x62_2_layer_ConVV_but_very_slow.ipynb) this is with images of size 64x64 and with 2 layers. this is quite slow to optmize and train the network. need a better rig to explore this. 
+- ##### Image Based ######
+  - [Keras AutoEncoder with DEC Clustering](autoencoder/auto_encoder_experiment_with_keras_with_clustering_DEC.ipynb) almost 25% improvement with clustering with auto encoders. experiment further with DEC - [ ] get back on this need to understand DEC better 
+  - [Simple Autoencoder with pytorch](autoencoder/pytorch_basic_experiment_autoencoder_myself.ipynb) Nothing much done on this, just for learning pytorch 
+  - [VAE Autoencoder CNN Pytorch](autoencoder/VAE_ecommerce_CNN_pytorch.ipynb)
+  - [VAE CNN Autoencoder](autoencoder/VAE_ecommerce_pytorch_64x62_2_layer_ConVV_but_very_slow.ipynb) this is with images of size 64x64 and with 2 layers. this is quite slow to optmize and train the network. need a better rig to explore this. 
+
+- ##### Text Based #####
+  - [LSTM Based Autoencoder](autoencoder/pytorch_autoencoder_for_nlp_with_lstm_+_cnn.ipynb) Experiementing with this but its unsolved, need to come back to this. -[] Incomplete 
 
 ### Pytorch ###
 - [Pytorch 101](pytorch/101/pytorch_getting_start_LR_101.ipynb) Simple linear regression 
