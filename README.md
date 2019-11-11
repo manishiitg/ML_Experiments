@@ -32,6 +32,16 @@ But auto-encoders are good concepts to understand and learn nonetheless. Would l
 
 - ##### Text Based #####
   - [LSTM Based Autoencoder](autoencoder/pytorch_autoencoder_for_nlp_with_lstm_+_cnn.ipynb) Experiementing with this but its unsolved, need to come back to this. -[] Incomplete 
+  
+- ###### Userful Links to Understand AutoEncoders ######
+  Few good articles i found
+  - https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf
+  - https://www.jeremyjordan.me/autoencoders/
+  - https://www.jeremyjordan.me/variational-autoencoders/
+  - https://wiseodd.github.io/techblog/2016/12/03/autoencoders/
+  - https://wiseodd.github.io/techblog/2016/12/10/variational-autoencoder/
+  - http://anotherdatum.com/vae.html
+  - http://anotherdatum.com/vae2.html
 
 ### Pytorch ###
 - [Pytorch 101](pytorch/101/pytorch_getting_start_LR_101.ipynb) Simple linear regression 
