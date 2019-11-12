@@ -42,6 +42,7 @@ But auto-encoders are good concepts to understand and learn nonetheless. Would l
   - https://wiseodd.github.io/techblog/2016/12/10/variational-autoencoder/
   - http://anotherdatum.com/vae.html
   - http://anotherdatum.com/vae2.html
+  - http://ruishu.io/2017/01/14/one-bit/
 
 ### Pytorch ###
 - [Pytorch 101](pytorch/101/pytorch_getting_start_LR_101.ipynb) Simple linear regression 
