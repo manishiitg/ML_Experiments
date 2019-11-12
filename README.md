@@ -28,7 +28,7 @@ But auto-encoders are good concepts to understand and learn nonetheless. Would l
   - [Simple Autoencoder with pytorch](autoencoder/pytorch_basic_experiment_autoencoder_myself.ipynb) Nothing much done on this, just for learning pytorch 
   - [VAE Autoencoder CNN MNIST](autoencoder/pytorch_lstm_getting_started_classification.ipynb)
   - [VAE Autoencoder CNN Pytorch](autoencoder/VAE_ecommerce_CNN_pytorch.ipynb)
-  - [VAE CNN Autoencoder](autoencoder/VAE_ecommerce_pytorch_64x62_2_layer_ConVV_but_very_slow.ipynb) this is with images of size 64x64 and with 2 layers. this is quite slow to optmize and train the network. need a better rig to explore this. 
+  - [VAE CNN Autoencoder Ecommerce Data](autoencoder/VAE_ecommerce_pytorch_64x62_2_layer_ConVV_but_very_slow.ipynb) this is with images of size 64x64 and with 2 layers. this is quite slow to optmize and train the network. need a better rig to explore this. 
 
 - ##### Text Based #####
   - [LSTM Based Autoencoder](autoencoder/pytorch_autoencoder_for_nlp_with_lstm_+_cnn.ipynb) Experiementing with this but its unsolved, need to come back to this. -[] Incomplete 
