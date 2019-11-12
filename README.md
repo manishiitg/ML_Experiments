@@ -29,6 +29,7 @@ But auto-encoders are good concepts to understand and learn nonetheless. Would l
   - [VAE Autoencoder CNN MNIST](autoencoder/pytorch_lstm_getting_started_classification.ipynb)
   - [VAE Autoencoder CNN Pytorch](autoencoder/VAE_ecommerce_CNN_pytorch.ipynb)
   - [VAE CNN Autoencoder Ecommerce Data](autoencoder/VAE_ecommerce_pytorch_64x62_2_layer_ConVV_but_very_slow.ipynb) this is with images of size 64x64 and with 2 layers. this is quite slow to optmize and train the network. need a better rig to explore this. 
+  - [VAE Autoencoder with Celeba Facedata](autoencoder/VAE_Experiment_with_Face_Data.ipynb) Got good results with this and also attached pre-trained model 
 
 - ##### Text Based #####
   - [LSTM Based Autoencoder](autoencoder/pytorch_autoencoder_for_nlp_with_lstm_+_cnn.ipynb) Experiementing with this but its unsolved, need to come back to this. -[] Incomplete 
