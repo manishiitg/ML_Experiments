@@ -9,6 +9,7 @@ This repo is mainly for myself to recollect and also share my journey and experi
 ### NLP / Deep Learning ###
 Learning NLP through deep learning
 - ##### Pytorch #####
+  - [Simple Text Classification](autoencoder/pytorch_lstm_getting_started_classification.ipynb)
   - [Very Simple Bidirectional LSTM](nlp/pytorch_improved_lstm_bidirectional_and_2_layer.ipynb) Simple LSTM based network for text classification 
   - [LSTM with Golve Vectors](nlp/pytorch_improved_lstm_bidirectional_and_2_layer.ipynb) Better accuracy with glove vector and 2 layer lstm
 - ##### Keras #####
@@ -26,7 +27,6 @@ But auto-encoders are good concepts to understand and learn nonetheless. Would l
 - ##### Image Based ######
   - [Keras AutoEncoder with DEC Clustering](autoencoder/auto_encoder_experiment_with_keras_with_clustering_DEC.ipynb) almost 25% improvement with clustering with auto encoders. experiment further with DEC - [ ] get back on this need to understand DEC better 
   - [Simple Autoencoder with pytorch](autoencoder/pytorch_basic_experiment_autoencoder_myself.ipynb) Nothing much done on this, just for learning pytorch 
-  - [VAE Autoencoder CNN MNIST](autoencoder/pytorch_lstm_getting_started_classification.ipynb)
   - [VAE Autoencoder CNN Pytorch](autoencoder/VAE_ecommerce_CNN_pytorch.ipynb)
   - [VAE CNN Autoencoder Ecommerce Data](autoencoder/VAE_ecommerce_pytorch_64x62_2_layer_ConVV_but_very_slow.ipynb) this is with images of size 64x64 and with 2 layers. this is quite slow to optmize and train the network. need a better rig to explore this. 
   - [VAE Autoencoder with Celeba Facedata](autoencoder/VAE_Experiment_with_Face_Data.ipynb) Got good results with this and also attached pre-trained model 
