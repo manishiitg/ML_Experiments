@@ -44,6 +44,7 @@ But auto-encoders are good concepts to understand and learn nonetheless. Would l
   - http://anotherdatum.com/vae.html
   - http://anotherdatum.com/vae2.html
   - http://ruishu.io/2017/01/14/one-bit/
+  - http://krasserm.github.io/2018/07/27/dfc-vae/
   - https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html
 
 ### Pytorch ###
