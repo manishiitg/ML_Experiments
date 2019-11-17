@@ -82,3 +82,4 @@ Understanding basics of NLP
 #### Bayesian Regression ####
 - https://katbailey.github.io/post/from-both-sides-now-the-math-of-linear-regression/
 - https://wiseodd.github.io/techblog/2017/01/05/bayesian-regression/
+- Whats Regularization / Ridge Regression https://towardsdatascience.com/regularization-in-machine-learning-connecting-the-dots-c6e030bfaddd
