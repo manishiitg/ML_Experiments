@@ -75,7 +75,7 @@ Understanding basics of NLP
 - [Word2Vec](nlp/101/word2vec_experiments.ipynb)  Good results to understand word2vec
 - [Word2Vec Visualize Data](nlp/101/word2vec_experiments_plotting_and_data_visualization.ipynb) Plotting word2vec data to understand
 
-#### Bayesian vs Classical Statistics ####
+#### Bayesian vs Classical (Frequentist) Statistics ####
 - https://planspace.org/2013/11/11/whats-the-difference-between-bayesian-and-non-bayesian-statistics/
 - https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/
 
