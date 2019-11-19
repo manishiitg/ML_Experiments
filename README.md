@@ -48,6 +48,8 @@ But auto-encoders are good concepts to understand and learn nonetheless. Would l
   - http://ruishu.io/2017/01/14/one-bit/
   - http://krasserm.github.io/2018/07/27/dfc-vae/
   - https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html
+  - https://ijdykeman.github.io/ml/2016/12/21/cvae.html
+  - https://wiseodd.github.io/techblog/2016/12/17/conditional-vae/
 
 ### Pytorch ###
 - [Pytorch 101](pytorch/101/pytorch_getting_start_LR_101.ipynb) Simple linear regression 
