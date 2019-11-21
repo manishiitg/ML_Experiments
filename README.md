@@ -32,6 +32,7 @@ But auto-encoders are good concepts to understand and learn nonetheless. Would l
   - [VAE Autoencoder with Celeba Facedata](autoencoder/VAE_Experiment_with_Face_Data.ipynb) Got good results with this and also attached pre-trained model 
   - [VAE Conditional with MNIST](autoencoder/CVAE_Experiment_MNIST.ipynb)
   - [VAE DEC with Celeba Facedata](autoencoder/VAE_DFC_Experiment_with_Face_Data.ipynb)
+  - This is just the start of autoencoders there is more like beta veta, factor vae, adversarial vae and which leads into GAN. I have done some basic experiments into beta-veta but need to pause and come back to this. there is a lot of learn in this and experiment but right now need to get back to project work related to nlp. But for sure need to back on this in between to understand this more 
 
 - ##### Text Based #####
   - [LSTM Based Autoencoder](autoencoder/pytorch_autoencoder_for_nlp_with_lstm_+_cnn.ipynb) Experiementing with this but its unsolved, need to come back to this. -[] Incomplete 
