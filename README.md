@@ -10,7 +10,7 @@ This repo is mainly for myself to recollect and also share my journey and experi
 Learning NLP through deep learning
 - ##### Pytorch #####
   - ###### Basics ######
-    - [Very Simple RNN](nlp/Name_Generator_Basic_RNN_Demo_Learning_First_RNN.ipynb) Creating a very Simple RNN network to understand how it works 
+    - [Very Simple RNN](nlp/Name_Generator_Basic_RNN_Demo_Learning_First_RNN.ipynb) Creating a very Simple Character-Level RNN network 
   - [Simple Text Classification](autoencoder/pytorch_lstm_getting_started_classification.ipynb)
   - [Very Simple Bidirectional LSTM](nlp/pytorch_improved_lstm_bidirectional_and_2_layer.ipynb) Simple LSTM based network for text classification 
   - [LSTM with Golve Vectors](nlp/pytorch_improved_lstm_bidirectional_and_2_layer.ipynb) Better accuracy with glove vector and 2 layer lstm
