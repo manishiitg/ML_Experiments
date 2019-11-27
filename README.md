@@ -11,7 +11,7 @@ Learning NLP through deep learning
 - ##### Pytorch #####
   - ###### Basics ######
     - [Very Simple RNN](nlp/Name_Generator_Basic_RNN_Demo_Learning_First_RNN.ipynb) Creating a very Simple Character-Level RNN network 
-    - [Character RNN Generate Indian Names](nlp/RNN_Indian_Name_Generator.ipynb) Generate random indian names getting very good results  
+    - [Character RNN Generate Indian Names](nlp/RNN_Indian_Name_Generator.ipynb) Generate random indian names getting very good results     - [Gender Specific Name Generation](nlp/RNN_Indian_Name_Generator_Gender_Specific.ipynb) This is a slight variation of the previous name generator, in this we can generate names for specific generic using a single NN
   - [Simple Text Classification](autoencoder/pytorch_lstm_getting_started_classification.ipynb)
   - [Very Simple Bidirectional LSTM](nlp/pytorch_improved_lstm_bidirectional_and_2_layer.ipynb) Simple LSTM based network for text classification 
   - [LSTM with Golve Vectors](nlp/pytorch_improved_lstm_bidirectional_and_2_layer.ipynb) Better accuracy with glove vector and 2 layer lstm
