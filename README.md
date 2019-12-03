@@ -97,3 +97,39 @@ Understanding basics of NLP
 - https://blogs.oracle.com/datascience/introduction-to-bayesian-inference
 - https://towardsdatascience.com/from-scratch-bayesian-inference-markov-chain-monte-carlo-and-metropolis-hastings-in-python-ef21a29e25a
 - https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50
+
+
+
+## Seq2Seq ##
+Seq2Seq its a very important part of NLP and its very important to understand how it works. I will try to expirement with different Seq2Seq models going to upto Transformers so as to understand deeply its usage.
+
+I will be closely following the posts here https://github.com/bentrevett/pytorch-seq2seq and mainly trying to reproduce them.
+
+#### My Notes ####
+This is the first Seq2Seq model i tried the most simple one https://colab.research.google.com/drive/1q88JjGC7xeRLuuoN8ZGpVu90iR2b2-E1
+My take aways from this 
+
+- First of language modelling is basically training a neural network to convert one sequence to another sequence. In general this can be any kind of sequence, but in this specific case this is for transalation i.e converting from one language to another. 
+
+- The most simplest model have an Encoder model and Decoder. 
+- Encoder is an LSTM which takes input as a full sentence. This is can be multiple layers or single layers as well. 
+- Encoder is passed the entire source sequence and it passes through a RNN. Encoder is mainly used to get the hidden state and cell state. 
+- These learned hidden/cell states are passed to the decoder. 
+- Decoder uses these hidden/cell states to start with, i.e the decoder RNN is initialized. Intuitively, this means the main purpose of the encoder to learn about the source sentence and pass that learning to the decoder. Quite interesting approach, if you think about it !!
+- Decoder works one word at time and not on the full sequence unlike the enoder. 
+- Decoding process starts with <sos> i.e the first token given to decoder and it prediects what will be the next token. 
+- The next token predicted is then used again as the input to decoder in loop till we loop through all the target tokens. 
+- There is an exception here, based on the forced teaching ratio either the predirect token is used or the target token is used as the next input. 
+- All the final outputs from the decoder RNN are collected and return backed. 
+- Seq2Seq model is simply a combination on encoder/decoder
+  
+Part2 of this uses the model https://github.com/bentrevett/pytorch-seq2seq/blob/master/2%20-%20Learning%20Phrase%20Representations%20using%20RNN%20Encoder-Decoder%20for%20Statistical%20Machine%20Translation.ipynb
+
+- Encoder remains the same
+- Decoder changes, i.e now we are passing a new variable called "context" to the decoder rnn along with hidden states
+- Context is nothing but the hidden state from encoder, we just don't update it after every decoder iteration
+- Why this is done? In the previous model decoder at every step didn't the data of the source sentence. As after every iteration we update the hidden states. This means the hidden states of the decoder have learn or keep in "memory" the source information as well as need to learn how to decode. To remove this, if we always pass the source information or "context" to the decoder always, the decoder hidden states no long have to learn about the source, rather they can optimize only to learn the decoding process. 
+- This is again quite interesting! We have logic that we want to implement which is decoder shouldn't learn about the source sentence, rather just the decoding process. To implement this we change our model parameters and force the model to learn this... We don't tell the model what to do explicitely but rather allow the model to learn based on what information we pass to the model..
+
+Part3: Attention
+...
