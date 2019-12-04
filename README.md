@@ -132,4 +132,44 @@ Part2 of this uses the model https://github.com/bentrevett/pytorch-seq2seq/blob/
 - This is again quite interesting! We have logic that we want to implement which is decoder shouldn't learn about the source sentence, rather just the decoding process. To implement this we change our model parameters and force the model to learn this... We don't tell the model what to do explicitely but rather allow the model to learn based on what information we pass to the model..
 
 Part3: Attention
-...
+
+Attention is very important concept in NLP and has lead to Transforms instead of RNN. https://github.com/bentrevett/pytorch-seq2seq/blob/master/3%20-%20Neural%20Machine%20Translation%20by%20Jointly%20Learning%20to%20Align%20and%20Translate.ipynb
+This provides are very good introduction at code level to attention 
+
+- Encoder remains the same, except its using bi-direction GRU. 
+- I find this interesting
+hidden = torch.tanh(self.fc(torch.cat((hidden[-2,:,:], hidden[-1,:,:]), dim = 1)))
+the last two hidden layers are concatinated and passed to a FF netework and  then passed to tanh
+so this would basically activate only specific nodes on the source hidden layer. 
+shouldn't this be just sum or average? hmmm...
+
+- Next, what we have is hidden states are passed to the RNN and also context is passed same as before. 
+- But now the decoder calculates attention from the source sequence. attention is basically means to which word from the source sequence should the neural network pay attention to while transalation. As in language, based on certain specific words the entire meaning of sentance would change. 
+- In short attension can be a probablity distribution of the source sequence words and higher probablity of a word will result better translation. 
+- So to calculate attention what is done is to 
+ - hidden = hidden.unsqueeze(1).repeat(1, src_len, 1)     this is basically to repeat the hidden state of decoder so that is the same length as source 
+ - First, we calculate the energy between the previous decoder hidden state and the encoder hidden states. As our encoder hidden states are a sequence of $T$ tensors, and our previous decoder hidden state is a single tensor, the first thing we do is repeat the previous decoder hidden state $T$ times. We then calculate the energy, $E_t$, between them by concatenating them together and passing them through a linear layer (attn) and a $\tanh$ activation function.
+    $$E_t = \tanh(\text{attn}(s_{t-1}, H))$$
+   energy = torch.tanh(self.attn(torch.cat((hidden, encoder_outputs), dim = 2))) 
+  This can be thought of as calculating how well each encoder hidden state "matches" the previous decoder hidden state.
+
+ - Next, we have another parameter called v 
+       v = self.v.repeat(batch_size, 1).unsqueeze(1)
+       attention = torch.bmm(v, energy).squeeze(1)
+   
+   We can think of this as calculating a weighted sum of the "match" over all dec_hid_dem elements for each encoder hidden state, where the weights are learned (as we learn the parameters of $v$).
+
+ - Finally we do a softmax, Finally, we ensure the attention vector fits the constraints of having all elements between 0 and 1 and the vector summing to 1 by passing it through a $\text{softmax}$ layer.
+
+- In the decoder everything is same, except that instead of using the context vector directory, a weight sum is used based on the attention. 
+  weighted = torch.bmm(a, encoder_outputs)
+  #weighted = [batch size, 1, enc hid dim * 2]
+  weighted = weighted.permute(1, 0, 2)
+  rnn_input = torch.cat((embedded, weighted), dim = 2)
+  
+  
+- So this means the decoder now just doesn't have the context vector, but it also as attention of the source sequence so decoder can pay attention to specific words
+
+- This model increases the accuracy, but also increases the training time a lot.
+
+
