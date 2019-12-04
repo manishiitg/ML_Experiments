@@ -172,4 +172,7 @@ shouldn't this be just sum or average? hmmm...
 
 - This model increases the accuracy, but also increases the training time a lot.
 
+This blog post, shows the concept of attention very well https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
+
+
 
