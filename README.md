@@ -175,4 +175,16 @@ shouldn't this be just sum or average? hmmm...
 This blog post, shows the concept of attention very well https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/
 
 
+Attention is All You Need
+
+This is very complex and need to dig through this will take time. Will get back to this. but basics are clear for now 
+
+https://mlexplained.com/2017/12/29/attention-is-all-you-need-explained/
+http://nlp.seas.harvard.edu/2018/04/03/attention.html
+http://jalammar.github.io/illustrated-transformer/
+
+https://github.com/bentrevett/pytorch-seq2seq/blob/master/5%20-%20Convolutional%20Sequence%20to%20Sequence%20Learning.ipynb
+https://github.com/bentrevett/pytorch-seq2seq/blob/master/6%20-%20Attention%20is%20All%20You%20Need.ipynb
+
+
 
