@@ -19,7 +19,7 @@ So if on the ui level i need to show different skills or find related skills i c
 
 ###### FastText Embedding on Candidates Database ######
 Trained fastText embedding on the same candidate database.
-[FastText Training](https://github.com/manishiitg/ML_Experiments/blob/master/recruit/fasttext_text_classify_cv_recruit.ipynb)
+[FastText Training](https://github.com/manishiitg/ML_Experiments/blob/master/recruit/fasttext_recruit_training.ipynb)
 Mainly in this learned what exactly is fastText, its an extension of word2vec but with n-gram model so that it can generalize better.
 This can be used for nlp tasks further downsteam i guess, but need to look at newer embedding likes elmo, bert etc 
 Not sure if this will be used anyware in the project yet.
