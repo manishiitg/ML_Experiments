@@ -6,6 +6,36 @@ This repo is mainly for myself to recollect and also share my journey and experi
 
 =====
 
+## Recruit System Project ##
+
+###### Word2Vec Embedding on Candidates Database ######
+Trained a word2vec model on actual candidate data to learn about mainly about skills section of candidates resume. 
+(Word2Vec Training)[https://github.com/manishiitg/ML_Experiments/blob/master/recruit/word2vec_recruit.ipynb]
+Overall i find the results very good and i should use it on production system, especially for skills. 
+Also used magnitute and faiss both are good get effecient results with word vectors. 
+But word2vec give good results in sense of that if search "seo" keyword, it will give other skills related to seo properly.
+So if on the ui level i need to show different skills or find related skills i can do it well. But i don't this this is a good embedding model for down steam nlp task as this doesn't generalize properly.
+
+
+###### FastText Embedding on Candidates Database ######
+Trained fastText embedding on the same candidate database.
+(FastText Training)[https://github.com/manishiitg/ML_Experiments/blob/master/recruit/fasttext_text_classify_cv_recruit.ipynb]
+Mainly in this learned what exactly is fastText, its an extension of word2vec but with n-gram model so that it can generalize better.
+This can be used for nlp tasks further downsteam i guess, but need to look at newer embedding likes elmo, bert etc 
+Not sure if this will be used anyware in the project yet.
+
+###### Glove Embedding on Candidates Database ######
+Trained glove embedding on the same candidate database
+(Glove Training)[https://github.com/manishiitg/ML_Experiments/blob/master/recruit/glove_recruit_training.ipynb]
+Traing Glove on the same dataset, i think results are better than fastText prima facie. Glove uses global concurance matrix so predictoins are better.. 
+again not sure if this will be on live tasks, but good to see the results
+
+##### Magnitude/Faiss/Annoy#####
+Used the 3 libraries in the above tasks, when playing around with word embeddings.
+- Magnitude basically is useful toolkit which works on top of embeddings like word2vec, glove, fasttext. Main advantage is that its fast and also provides are unified interface when dealines with the above said vectors to find similarity etc. Overall i like it.
+- Faiss is facebook library in C++ to manage vectors. This is good at searching, similarity, doing PCA, clustering as well and supports many different kinds of indexes. Its a bit complex library and should be used when need really effecient results as it can manage very large indexes like upto 1b vectors.
+- Annoy is a library by spoitfy in C++ again to manage vectors, but this only has searching feature i.e similarity. This is a very simple and straight forward library but good at what it does. Magnitude uses this internally. If similary is all that is needed, go with annoy as its very simply and we can build indexes once and save to disk as well. 
+
 ### NLP / Deep Learning ###
 Learning NLP through deep learning
 - ##### Pytorch #####
