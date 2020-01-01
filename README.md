@@ -37,6 +37,16 @@ Used the 3 libraries in the above tasks, when playing around with word embedding
 - Faiss is facebook library in C++ to manage vectors. This is good at searching, similarity, doing PCA, clustering as well and supports many different kinds of indexes. Its a bit complex library and should be used when need really effecient results as it can manage very large indexes like upto 1b vectors.
 - Annoy is a library by spoitfy in C++ again to manage vectors, but this only has searching feature i.e similarity. This is a very simple and straight forward library but good at what it does. Magnitude uses this internally. If similary is all that is needed, go with annoy as its very simply and we can build indexes once and save to disk as well. 
 
+##### FastText Text Classification #####
+(FastText Classify)[https://github.com/manishiitg/ML_Experiments/blob/master/recruit/fasttext_text_classify_cv_recruit.ipynb]
+Purpose of this to setup a baseline and see how fastText doesn't classification for labels. This was just a leanring experiment to set how is the data we have gathered till now.
+Overall results were fine nothing great, but i think they are overfitting. Need a better generallized model and a bigger dataset...
+This is was just a simple experiment, need to go with better models for documents. 
+
+##### Facebook Starspace #####
+(Starspace Experiments)[https://github.com/manishiitg/ML_Experiments/blob/master/nlp/facebook_starspace_experiments.ipynb]
+Just playing around with this library, but i don't think its good enough. It say it can do a lot of things, but i couldn't do much with it and didn't understand it well as well. Didn't get any conclusive results, i think again its just to test out ur data and get a baseline for results. As training times a very fast.
+
 ### NLP / Deep Learning ###
 Learning NLP through deep learning
 - ##### Pytorch #####
