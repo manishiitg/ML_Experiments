@@ -8,7 +8,7 @@ This repo is mainly for myself to recollect and also share my journey and experi
 
 ## Recruit System Project ##
 
-###### Word2Vec Embedding on Candidates Database ######
+##### Word2Vec Embedding on Candidates Database #####
 Trained a word2vec model on actual candidate data to learn about mainly about skills section of candidates resume. 
 [Word2Vec Training](https://github.com/manishiitg/ML_Experiments/blob/master/recruit/word2vec_recruit.ipynb)
 Overall i find the results very good and i should use it on production system, especially for skills. 
@@ -17,14 +17,14 @@ But word2vec give good results in sense of that if search "seo" keyword, it will
 So if on the ui level i need to show different skills or find related skills i can do it well. But i don't this this is a good embedding model for down steam nlp task as this doesn't generalize properly.
 
 
-###### FastText Embedding on Candidates Database ######
+##### FastText Embedding on Candidates Database #####
 Trained fastText embedding on the same candidate database.
 [FastText Training](https://github.com/manishiitg/ML_Experiments/blob/master/recruit/fasttext_recruit_training.ipynb)
 Mainly in this learned what exactly is fastText, its an extension of word2vec but with n-gram model so that it can generalize better.
 This can be used for nlp tasks further downsteam i guess, but need to look at newer embedding likes elmo, bert etc 
 Not sure if this will be used anyware in the project yet.
 
-###### Glove Embedding on Candidates Database ######
+##### Glove Embedding on Candidates Database #####
 Trained glove embedding on the same candidate database
 [Glove Training](https://github.com/manishiitg/ML_Experiments/blob/master/recruit/glove_recruit_training.ipynb)
 Traing Glove on the same dataset, i think results are better than fastText prima facie. Glove uses global concurance matrix so predictoins are better.. 
