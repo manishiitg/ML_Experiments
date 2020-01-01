@@ -30,7 +30,8 @@ Trained glove embedding on the same candidate database
 Traing Glove on the same dataset, i think results are better than fastText prima facie. Glove uses global concurance matrix so predictoins are better.. 
 again not sure if this will be on live tasks, but good to see the results
 
-##### Magnitude/Faiss/Annoy#####
+##### Magnitude/Faiss/Annoy #####
+
 Used the 3 libraries in the above tasks, when playing around with word embeddings.
 - Magnitude basically is useful toolkit which works on top of embeddings like word2vec, glove, fasttext. Main advantage is that its fast and also provides are unified interface when dealines with the above said vectors to find similarity etc. Overall i like it.
 - Faiss is facebook library in C++ to manage vectors. This is good at searching, similarity, doing PCA, clustering as well and supports many different kinds of indexes. Its a bit complex library and should be used when need really effecient results as it can manage very large indexes like upto 1b vectors.
