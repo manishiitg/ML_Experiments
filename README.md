@@ -47,6 +47,11 @@ This is was just a simple experiment, need to go with better models for document
 (Starspace Experiments)[https://github.com/manishiitg/ML_Experiments/blob/master/nlp/facebook_starspace_experiments.ipynb]
 Just playing around with this library, but i don't think its good enough. It say it can do a lot of things, but i couldn't do much with it and didn't understand it well as well. Didn't get any conclusive results, i think again its just to test out ur data and get a baseline for results. As training times a very fast.
 
+##### BERT Sentence Transformer #####
+(Sent Embeddings)[https://github.com/manishiitg/ML_Experiments/blob/master/nlp/bert_sentence_transformer_experiments_sentence_embbedings.ipynb]
+I tried on our data, i think this is not very useful for our methods rather need to do classification only.
+But it was good learning and good to see how BERT is used with different archiectures and different loss function. Thats the most important take away from this. 
+
 ### NLP / Deep Learning ###
 Learning NLP through deep learning
 - ##### Pytorch #####
