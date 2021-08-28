@@ -59,5 +59,55 @@ Evaluation/Monitor
 
 ### Tools
 
-Gantt Chart - 
+Gantt Chart - mainly showing time/costs across tasks. and showing which task can be completed first/second and parallel
+Pert Diagram - more into showing relationship between activites
+
+consider each task seperatly, look at historial data also if there else use subject matter experts/ your own experiance
+documentation is important at every stage
+
+
+# SDLC
+
+## Analysis Phase
+
+To gather data and do analysis on the feasablity of the project. 
+identify & define the problem we are trying to solve clearly
+focus should not be on identifing the problem and what would solve it. not going into how to solve the problem.
+
+identify constraints (feasibility study), like 3rd part systems, staffing issue, budget issues, time issues etc these all will go into feasiblity study. does company have ability to create such a system. does company have ability to maintain and operate the system. will the development costs justify the improvement. 
+
+define project team (who will provide input at design stage)
+
+define information needs (need to talk to users of the system at different level to understand and analytics different information flow/needs. important to talk to actual users not just management. information relevent/bias/weightage should be taken into account as well)
+
+information flow needs to be defined (data flow diagrams, ER diagrams)
+
+define performance criteria
+define a design proposal
+
+## Design Phase
+
+prepare system design
+identify and evaluate alternate designs
+selecting best configuration
+prepare execution plan
+
+## Execution phase
+
+annoucement to start the project information stake holder, employees,clients, etc
+actual implementation
+acquire all resources to implement hardware/software etc
+educating teams
+
+implementation schedule
+
+prepare changeover schedule (most systems its common to introduce one system at a time in a phased manner, so it easier to identify problems)
+parallel systems, trail systems and slowly increasing rollout, finally to commision a new system
+
+## Use/Evaluation Phase
+
+using the system (feedback from users/customers)
+auditing the system (creating internal audits/checks/metrics)
+maintaince
+re-enginnering
 
